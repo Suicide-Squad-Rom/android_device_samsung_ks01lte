@@ -21,6 +21,14 @@ TARGET_OTA_ASSERT_DEVICE := ks01ltexx,GT-I9506,ks01lte,ks01lteskt,ks01ltektt
 
 TARGET_BOOTLOADER_BOARD_NAME := MSM8974
 
+# Spiritify
+TARGET_GCC_VERSION_AND := 4.8
+TARGET_GCC_VERSION_ARM := 4.7-sm
+TARGET_USE_O3 := true
+STRICT_ALIASING := true
+SUPPRES_UNUSED_WARNING := true
+OPT_MEMORY := true
+
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/ks01lte
 TARGET_KERNEL_CONFIG := cyanogenmod_ks01lte_defconfig
