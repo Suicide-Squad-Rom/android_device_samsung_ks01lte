@@ -54,6 +54,7 @@ TARGET_PROVIDES_LIBLIGHT := true
 TARGET_USES_LOGD := false
 
 # NFC
+TARGET_USES_OS_NFC := true
 BOARD_NFC_HAL_SUFFIX := msm8974
 
 # Partitions
