@@ -23,7 +23,7 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8974
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/samsung/ks01lte
-TARGET_KERNEL_CONFIG := cyanogenmod_ks01lte_defconfig
+TARGET_KERNEL_CONFIG := unicornblood_ks01lte_defconfig
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000 --tags_offset 0x01e00000
 BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x3F androidboot.bootdevice=msm_sdcc.1
 BOARD_KERNEL_BASE := 0x00000000
@@ -33,7 +33,7 @@ BOARD_DTBTOOL_ARGS := -2
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 
 # Build with Clang by default
-USE_CLANG_PLATFORM_BUILD := true
+#USE_CLANG_PLATFORM_BUILD := true
 
 # Audio
 AUDIO_FEATURE_DISABLED_ANC_HEADSET := true
@@ -105,7 +105,7 @@ WIFI_DRIVER_FW_PATH_AP := "/system/etc/wifi/bcmdhd_apsta.bin"
 BOARD_VENDOR := samsung
 BOARD_MOBILEDATA_INTERFACE_NAME := "rmnet0"
 BOARD_PROVIDES_LIBRIL := true
-TARGET_RIL_VARIANT := caf
+#TARGET_RIL_VARIANT := caf
 
 # Protobuf-c
 PROTOBUF_SUPPORTED := true

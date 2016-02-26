@@ -1,0 +1,50 @@
+[
+  {
+    "remote": "github",
+    "repository": "DirtyUnicorns/android_device_samsung_msm8974-common",
+    "target_path": "device/samsung/msm8974-common",
+    "revision": "m-caf"
+  },
+  {
+    "remote": "github",
+    "repository": "DirtyUnicorns/android_device_samsung_qcom-common",
+    "target_path": "device/samsung/qcom-common",
+    "revision": "m-caf"
+  },
+  {
+    "remote": "github",
+    "repository": "DirtyUnicorns/android_hardware_samsung",
+    "target_path": "hardware/samsung",
+    "revision": "m-caf"
+  },
+  {
+    "remote": "github",
+    "repository": "DirtyUnicorns/android_kernel_samsung_ks01lte",
+    "target_path": "kernel/samsung/ks01lte",
+    "revision": "m-caf"
+  },
+  {
+    "remote": "github",
+    "repository": "DirtyUnicorns/android_external_stlport",
+    "target_path": "external/stlport",
+    "revision": "m-caf"
+  },
+  {
+    "remote": "github",
+    "repository": "DirtyUnicorns/android_external_ant-wireless_ant_native",
+    "target_path": "external/ant-wireless/ant_native",
+    "revision": "m-caf"
+  },
+  {
+    "remote": "github",
+    "repository": "DirtyUnicorns/android_external_ant-wireless_ant_service",
+    "target_path": "external/ant-wireless/ant_service",
+    "revision": "m-caf"
+  },
+  {
+    "remote": "github",
+    "repository": "DirtyUnicorns/android_external_ant-wireless_antradio-library",
+    "target_path": "external/ant-wireless/antradio-library",
+    "revision": "m-caf"
+  }
+]
